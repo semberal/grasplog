@@ -1,0 +1,8 @@
+User 'alice' successfully logged in
+Error received while calling the external system 'foo' - 500 Internal Server Error
+Password of user 'dave' has been changed
+Error received while calling the external system 'foo' - 500 Internal Server Error
+User 'bob' successfully logged in
+Error received while calling the external system 'foo' - 500 Internal Server Error
+Error received while calling the external system 'foo' - 500 Internal Server Error
+User 'charlie' successfully logged in
