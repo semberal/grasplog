@@ -28,10 +28,7 @@ def create_app_config(args: List[str]) -> AppContext:
         "--max-distance",
         metavar="MAX_DISTANCE",
         type=float,
-        help=f"Max cosine distance between two log events to be considered as the same cluster. "
-             "Allowed values range between 0 and 1. "
-             "0 means log events have to be the same to end up in the same cluster. "
-             "1 means all log events end up in the same cluster. "
+        help=f"Max Manhattan distance between two log events to be considered as the same cluster. "
              f"Default value: {AppContext.DEFAULT_MAX_DISTANCE}",
         default=AppContext.DEFAULT_MAX_DISTANCE,
     )
